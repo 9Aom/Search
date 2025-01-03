@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit URL Parameters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    * {
+        font-family:"Noto Sans Thai", serif;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>ดูตารางเรียน <h1 style="color: blue;" >E.Tech</h1> 👀 </h1>
+        <input type="text" id="urlInput" placeholder="Enter a URL" />
+        <div class="edit-section hidden">
+            <!-- <input type="text" id="selClass" placeholder="ใส่ห้อง" /> -->
+            <input type="text" id="idClass" placeholder="ใส่ห้อง (ABC.1/1) " />
+        </div>
+        <button id="editBtn">Edit Parameters 📃 </button>
+        <button id="searchBtn" class="hidden">Search 🔍 </button>
+        <p id="error" class="hidden">Please enter a valid URL.</p>
+        <div class="">
+            <p style="opacity: 0.6;" >เว็ปมีปัญหาเกิดบั้กหรือต้องการติดต่อแจ้clงมาที่ </p>
+            <a style="text-decoration: none; color: red;" href="https://www.instagram.com/https_aommm_dev/" target="_blank" >aommm_dev</a>
+        </div>
+    </div>
+    <div class="floating-object"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
